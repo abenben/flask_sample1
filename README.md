@@ -20,4 +20,4 @@ Flaskのサンプルなどを評価します。
 ## 参考URL
 
 * [完了][【Python】Flaskとは？FlaskでWeb開発の基礎を学ぼう！](https://aiacademy.jp/media/?p=57)
-* [Flaskの簡単な使い方](https://qiita.com/zaburo/items/5091041a5afb2a7dffc8)
+* [完了][Flaskの簡単な使い方](https://qiita.com/zaburo/items/5091041a5afb2a7dffc8)
