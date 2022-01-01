@@ -16,6 +16,8 @@ Flaskのサンプルなどを評価します。
   * ¥3,740(kindle)
 * [ゼロからFlaskがよくわかる本: Pythonで作るWebアプリケーション開発入門/本田崇智 ](https://www.amazon.co.jp/dp/B07F2X9GRQ)
   * kindle版無料
+* [Python & Flask 初めてのWebアプリケーション作成に挑戦!! 髙頭周平](https://www.amazon.co.jp/dp/B08M6979ZS)
+  * kindle版無料
 
 ## 参考URL
 
