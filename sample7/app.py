@@ -11,7 +11,10 @@ id_pwd = {'root': '12345678'}
 
 @app.route('/')
 def index():
-    return 'Hello demon Slayer'
+    if not session.get('login'):
+        return redirect(url_for('login'))
+    else:
+        return render_template('index.html')
 
 
 @app.route('/login')
@@ -36,6 +39,12 @@ def logincheck():
         return redirect(url_for('index'))
     else:
         return redirect(url_for('login'))
+
+
+@app.route('/logout')
+def logout():
+    session.pop('login', None)
+    return redirect(url_for('index'))
 
 
 if __name__ == '__main__':
